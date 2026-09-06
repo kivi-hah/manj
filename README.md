@@ -27,7 +27,8 @@
 
 Главная и Библиотека 
  <img width="1920" height="1080" alt="{9D73511A-0618-45D3-A439-B179236C9171}" src="https://github.com/user-attachments/assets/55ef4964-284b-4b24-8f9a-700b1d193a9e" />
- <img width="1920" height="1080" alt="{EAD17B6B-B59F-4DE9-9C0F-FB7AE7806E09}" src="https://github.com/user-attachments/assets/76d3a4d3-8717-4f71-b22c-9079186c754d" />
+ <img width="1920" height="1080" alt="{FD4C2466-9428-435D-A06E-BC6641909E26}" src="https://github.com/user-attachments/assets/59a6ce3e-9bf4-4d93-826c-08bb9a445d82" />
+
 
 
 Волна (режимы) и Полноэкранный плеер 
