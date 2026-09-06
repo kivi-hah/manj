@@ -43,7 +43,7 @@
 # Установка
 
 1. Открой [**Releases**](https://github.com/kivi-hah/manj/releases)
-2. Скачай `Manj_0.1.0_x64-setup.exe`
+2. Скачай `Manj_0.1.1_x64-setup.exe`
 3. Установи и запусти — **ничего дополнительно ставить не нужно**
 
 > Windows 10/11 уже содержит всё необходимое (WebView2).
