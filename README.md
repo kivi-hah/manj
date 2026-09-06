@@ -35,8 +35,6 @@
 Волна (режимы) и Полноэкранный плеер 
 <img width="1920" height="1080" alt="{BA92223C-D5C7-40A7-8362-ABAF146994A8}" src="https://github.com/user-attachments/assets/d62502b3-0337-4a43-a842-e93671c7e373" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/bf04eb26-7cb6-4b2d-b38a-352417e48e8f" /> 
-При наведение <img width="570" height="734" alt="image" src="https://github.com/user-attachments/assets/a643c10a-e6c9-40ea-abd1-f6b39c9f3dde" />
-
 
 
 
