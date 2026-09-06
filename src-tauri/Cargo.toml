@@ -1,0 +1,35 @@
+[package]
+name = "volna"
+version = "0.1.0"
+description = "Volna — бесплатный музыкальный плеер-агрегатор"
+authors = ["Tim"]
+edition = "2021"
+
+[lib]
+name = "volna_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+# HTTP-клиент для проксирования API и аудиопотоков (rustls — без OpenSSL)
+reqwest = { version = "0.12", default-features = false, features = ["rustls-tls", "json", "stream"] }
+# Системное хранилище секретов: Windows Credential Manager / Keychain / Secret Service
+keyring = { version = "3", features = ["windows-native", "apple-native", "sync-secret-service"] }
+# Локальная БД истории прослушиваний и вкусового профиля
+rusqlite = { version = "0.32", features = ["bundled"] }
+# Подпись прямых mp3-ссылок Яндекса (md5 от секрет+ts+path)
+md-5 = "0.10"
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "time"] }
+futures-util = "0.3"
+log = "0.4"
+url = "2"
+
+[profile.release]
+lto = true
+codegen-units = 1
+strip = true

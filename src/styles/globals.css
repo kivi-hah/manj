@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+  body {
+    @apply overflow-hidden bg-base font-sans text-white antialiased;
+    user-select: none;
+  }
+  button {
+    cursor: pointer;
+  }
+  input,
+  textarea {
+    user-select: text;
+  }
+}
+
+@layer utilities {
+  /* Материальные иконки: вес 500, оптический размер 40 (крупные кнопки) */
+  .ms-medium {
+    font-variation-settings: "FILL" 0, "wght" 500, "GRAD" 0, "opsz" 40;
+  }
+  .ms-fill {
+    font-variation-settings: "FILL" 1, "wght" 500, "GRAD" 0, "opsz" 40;
+  }
+}
+
+/* Тёмный скроллбар в духе макета */
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+*::-webkit-scrollbar-thumb {
+  background: #4a4a4a;
+  border-radius: 8px;
+}
+*::-webkit-scrollbar-thumb:hover {
+  background: #5a5a5a;
+}
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Отключение микроанимаций из «Настройки → Плавные переходы» */
+.no-anim *,
+.no-anim *::before,
+.no-anim *::after {
+  animation-duration: 0s !important;
+  transition-duration: 0s !important;
+}
+
+/* --- Глобальные плавные анимации ------------------------------------------ */
+
+/* Появление подложек (блюр-оверлеи) */
+@keyframes anim-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.animate-fade {
+  animation: anim-fade-in 0.25s ease both;
+}
+
+/* Мягкий «выпрыг» панелей и меню — без конфликтов с центрирующими transform */
+@keyframes anim-pop {
+  from {
+    opacity: 0;
+    transform: scale(0.96) translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+.animate-pop {
+  animation: anim-pop 0.3s cubic-bezier(0.2, 0.9, 0.3, 1.12) both;
+}
+
+/* Плавное «всплытие» контента экранов */
+@keyframes anim-rise {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-rise {
+  animation: anim-rise 0.35s ease both;
+}
+
+/* Деликатный подъём пилюль при наведении */
+.pill-hover {
+  transition:
+    transform 0.22s cubic-bezier(0.2, 0.8, 0.3, 1.1),
+    background-color 0.2s ease;
+}
+.pill-hover:hover {
+  transform: translateY(-3px);
+}
+
+/* --- Анимации ВЫХОДА (закрытие оверлеев) ------------------------------------ */
+
+@keyframes anim-fade-out {
+  to {
+    opacity: 0;
+  }
+}
+.anim-exit-fade {
+  animation: anim-fade-out 0.22s ease both;
+}
+
+@keyframes anim-pop-out {
+  to {
+    opacity: 0;
+    transform: scale(0.95) translateY(12px);
+  }
+}
+.anim-exit-pop {
+  animation: anim-pop-out 0.22s ease both;
+}
