@@ -27,8 +27,8 @@
 
 | Главная | Библиотека |
 |---|---|
-| ![Главная](<img width="1920" height="1080" alt="{9D73511A-0618-45D3-A439-B179236C9171}" src="https://github.com/user-attachments/assets/55ef4964-284b-4b24-8f9a-700b1d193a9e" />
-) | ![Библиотека](<img width="1920" height="1080" alt="{C07A6BD3-B324-4AB7-8FAF-4C3051516962}" src="https://github.com/user-attachments/assets/e7d707a3-0c5a-488a-9ca8-989625316682" />
+| (<img width="1920" height="1080" alt="{9D73511A-0618-45D3-A439-B179236C9171}" src="https://github.com/user-attachments/assets/55ef4964-284b-4b24-8f9a-700b1d193a9e" />
+) (<img width="1920" height="1080" alt="{C07A6BD3-B324-4AB7-8FAF-4C3051516962}" src="https://github.com/user-attachments/assets/e7d707a3-0c5a-488a-9ca8-989625316682" />
 ) |
 
 | Волна (режимы) | Полноэкранный плеер |
