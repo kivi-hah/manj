@@ -25,13 +25,13 @@
 
 ## Скриншоты
 
-| Главная | Библиотека |
+| Главная Библиотека |
 |---|---|
 | (<img width="1920" height="1080" alt="{9D73511A-0618-45D3-A439-B179236C9171}" src="https://github.com/user-attachments/assets/55ef4964-284b-4b24-8f9a-700b1d193a9e" />
 ) (<img width="1920" height="1080" alt="{C07A6BD3-B324-4AB7-8FAF-4C3051516962}" src="https://github.com/user-attachments/assets/e7d707a3-0c5a-488a-9ca8-989625316682" />
 ) |
 
-| Волна (режимы) | Полноэкранный плеер |
+| Волна (режимы) Полноэкранный плеер |
 |---|---|
 | ![Волна](<img width="1920" height="1080" alt="{BA92223C-D5C7-40A7-8362-ABAF146994A8}" src="https://github.com/user-attachments/assets/d62502b3-0337-4a43-a842-e93671c7e373" />
 ) | ![Плеер](<img width="1920" height="1080" alt="{AA7C4F63-CBB4-412B-82FF-73C364F28A5C}" src="https://github.com/user-attachments/assets/04242ff8-6e44-4e53-a523-26e29bb2fcea" />
