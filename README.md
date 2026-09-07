@@ -27,14 +27,15 @@
 ## Скриншоты
 
 Главная и Библиотека
-<img width="1920" height="1080" alt="{6EFB6B1B-96DB-4150-8504-44B25B61A55B}" src="https://github.com/user-attachments/assets/31166f44-6428-4abd-8d06-f48e0355afe8" />
-<img width="1920" height="1080" alt="{A5CA1DAF-9F0C-4B5B-91F5-EC4A7641ADAF}" src="https://github.com/user-attachments/assets/0fadc85e-9ed9-4ec4-8b6a-41e2dd416ab4" />
+<img width="1920" height="1080" alt="{3F52C7EB-780F-4A8E-B899-CD8D89A96780}" src="https://github.com/user-attachments/assets/ab1b58db-fb2a-4128-b1c1-500cddcf77ed" />
+<img width="1920" height="1080" alt="{348A5ABE-5A35-40A4-AF86-91ECD2CA328F}" src="https://github.com/user-attachments/assets/e158fece-ffa4-4562-b771-8dfd1aaa5c13" />
 
 
 
 Волна (режимы) и Полноэкранный плеер 
-<img width="1920" height="1080" alt="{0CECDF67-237D-43B8-B6A7-F66C28EA9BC0}" src="https://github.com/user-attachments/assets/8bcdaae7-44c4-4ac3-bf9e-34e1c52e1d79" />
-<img width="1920" height="1080" alt="{8BA22AD6-2B3F-487B-A349-460C6EC58AC0}" src="https://github.com/user-attachments/assets/4959b1fb-9a18-41e1-a72d-db805dae8f62" />
+<img width="1920" height="1080" alt="{DF365405-0974-4760-8A53-2EDED4CFAE37}" src="https://github.com/user-attachments/assets/d18c7d3d-b529-4a6d-bdc5-be9388f65adc" />
+<img width="1920" height="1080" alt="{9DBCF7C0-A008-4EDC-AD05-FEB863945E74}" src="https://github.com/user-attachments/assets/dac8142d-92e7-4da9-9e41-63e0b684ff2e" />
+
 
 
 
