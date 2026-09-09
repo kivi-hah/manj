@@ -24,14 +24,14 @@
 - **Локальный режим** — если сервисы недоступны, приложение продолжает работать на локальном каталоге
 - **Настройки** — 3 цветовые схемы логотипа, громкость, повтор очереди, автозапуск, плавные переходы, горячие клавиши
 
-## Скриншоты
+# Скриншоты
 
-# Главная и Библиотека
+## Главная и Библиотека
 <img width="1920" height="1080" alt="{648B0FB1-2524-4D10-9220-66B624DBDA7E}" src="https://github.com/user-attachments/assets/12ec6037-215f-456c-9508-cd762ba19838" />
 <img width="1920" height="1080" alt="{183DF2A0-0C9F-4E20-9A13-285BDEF574B5}" src="https://github.com/user-attachments/assets/a746d49f-684b-4ca5-9d11-d3b274934948" />
 
 
-# Волна (режимы) и Полноэкранный плеер 
+## Волна (режимы) и Полноэкранный плеер 
 <img width="1920" height="1080" alt="{DE135903-4CFE-46DE-AFA9-4BAC3C2D22CD}" src="https://github.com/user-attachments/assets/c81e1a89-fd27-4417-9083-b9c2ab953f51" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/33534d93-6c5c-4b2b-b8d9-0ca80094986a" />
 
